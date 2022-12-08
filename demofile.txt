@@ -1,0 +1,24 @@
+Introduction:
+
+Regular expressions are patterns used to match character combinations in string. In JS, regex is also an object. there are various different important functions in regular expressions and they are:
+- exec() ,
+- test(),
+- match(), matchAll(), replace(), replaceAll(), search(), and split()
+
+Creating regex:
+There are two ways to create regular expressions.
+1) Using back slashes, that is enclosing the patterns inside a pair of back slashes.
+eg:
+const re = /ab+c/;
+
+These regular expressions are compiled when the script is loaded. So they can improive performance.
+
+2) Using RegExp constructor:
+Eg:
+const re = new RegExp('ab+c');
+
+These are compiled during runtime and can be used when you need to get the regular expression from the user.
+
+Writing a pattern:
+
+
