@@ -1,3 +1,4 @@
+# ref file for me @hemanth and @Aashritha, will delete later
 def Huffman_Decoding(encoded_data, huffman_tree):
     tree_head = huffman_tree
     decoded_output = []
@@ -20,4 +21,4 @@ f = open("demofile.txt", "r")
 data = f.read()
 print("The Data before decoding: " + data)
 
-Huffman_Decoding()
+Huffman_Decoding(data)
