@@ -1,5 +1,13 @@
 # text-compression-huffman
+<a name="readme-top"></a>
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+- [👥 Authors](#authors)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+## About the Project <a name="about-project"></a>
 This repository contains Python code for Huffman encoding and decoding, a lossless data compression technique. The repository includes a Python module containing two functions: Huffman_Encoding() and Huffman_Decoding(), for encoding and decoding text respectively.
 
 The Huffman_Encoding() function accepts a string of text as input and applies Huffman encoding to compress it. It uses a binary tree to represent the frequency of each character in the text and assign shorter codes to more frequently occurring characters. The function returns the compressed output string and the binary tree structure.
@@ -9,3 +17,30 @@ The Huffman_Decoding() function accepts the compressed output string and the bin
 The code includes a class called Node that represents a node in the binary tree with its properties such as probability, symbol, left node, right node, and code. The code also includes functions such as Calculate_Probability(), Calculate_Codes(), Output_Encoded(), and Total_Gain() that assist in the Huffman encoding process.
 
 The code includes a demo example, where the input text is read from a file "demofile.txt", compressed using Huffman_Encoding() function and written to another file "demofile2.txt". The compressed text is then read from the file "demofile2.txt", decoded using Huffman_Decoding() function and printed to the console.
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Indira Kumar A K**
+
+- GitHub: [@Indira-kumar](https://github.com/Indira-kumar)
+- Twitter: [@theluckiestman](https://twitter.com/theluckiestman)
+- LinkedIn: [Indira Kumar A K](https://www.linkedin.com/in/indira-kumar-a-k-b612381bb/)
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page]().
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
